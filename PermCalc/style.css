@@ -1,0 +1,47 @@
+@font-face {
+    font-family: rounded;
+    src: url('designs/d.otf');
+}
+
+@font-face {
+    font-family: rounded-bold;
+    src: url('designs/c.otf');
+}
+
+h1 {
+	font-family: rounded-bold;
+}
+
+body {
+	font-family: rounded, comfortaa;
+	font-size: 1.5vw;
+	color: #000;
+}
+
+button, input {
+	font-family: rounded;
+	border: 0.2vw solid #44a;
+	border-radius: 1vw;
+	font-size: 2vw;
+	padding: 0.2vw;
+	margin: 0.2vw;
+}
+
+.output-container {
+	font-family: r, comfortaa;
+	font-size: 2vw;
+}
+
+.infobox p {
+	margin: 0vw;
+}
+
+.infobox {
+	background-color: #fbb;
+	color: #421;
+}
+
+.infobox:nth-child(even) {
+	background-color: #bbf;
+	color: #124;
+}
